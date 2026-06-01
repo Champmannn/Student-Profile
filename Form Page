@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile | Contact</title>
+</head>
+<body>
 
+    <header>
+        <h1>Get In Touch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html"><strong>Contact Me</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="contact-form-section">
+            <h2>Contact Form</h2>
+            <p>Please fill out the form below to drop me a message.</p>
+
+            <form action="https://httpbin.org/post" method="POST">
+                
+                <div>
+                    <label prejudices for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+                </div>
+                <br>
+
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required placeholder="Write your message here..."></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit">Submit Message</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Student Profile. Built for HTML5 Laboratory Activity.</p>
+    </footer>
+
+</body>
+</html>
