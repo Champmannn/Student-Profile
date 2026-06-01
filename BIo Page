@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile | Home</title>
+</head>
+<body>
 
+    <header>
+        <h1>Student Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="bio">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="A smiling portrait of a web development student working on a laptop" width="200">
+            <p>Hello! Welcome to my student profile site. I am an aspiring web developer learning the foundational building blocks of the World Wide Web. This site showcases my grasp of semantic HTML5, document structuring, and accessible design principles.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies & Interests</h2>
+            <p>Here are a few things I enjoy doing in my free time:</p>
+            <ul>
+                <li>Coding and solving logic puzzles</li>
+                <li>Reading technology blogs and sci-fi books</li>
+                <li>Playing video games and hiking</li>
+            </ul>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Student Profile. Built for HTML5 Laboratory Activity.</p>
+    </footer>
+
+</body>
+</html>
